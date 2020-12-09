@@ -1,0 +1,219 @@
+  body{
+    color: #a33258;
+    background-color: #dba791;   /**/
+
+  }
+  #nav-bar{
+    width: 100%;
+    background-color:#0d2947;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      
+  }
+  h1 { 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color:white;
+    margin-left: 20px;
+  }
+  .links{
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  .button {
+    background-color:#0d2947;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color:#071b30; /* Green */
+    color: white;
+  }
+  .contact {
+    background-color:#0d2947;
+    border: 2px solid #EDC7B7;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+  .contact:hover {
+    background-color: #071b30; /* Green */
+    color: white;
+  }
+
+  .profile{
+    height: 500px;
+    text-align: center;
+    position: relative;
+  }
+
+  .data{
+    margin-top: 170px;
+  }
+
+  .icons{
+    margin-top: 50px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .summary{
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+
+  .projects{
+    text-align: center;
+  }
+  .project_title{
+    text-align: center;
+  }
+
+  .skills{
+    text-align: center;
+  }
+  
+
+  .rows{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .project_image{
+    height: 300px;
+    width: 300px;
+  }
+
+  .pro_links button{
+    background-color: #0d2947;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+    transition-duration: 0.4s;
+  }
+  .pro_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .no_art{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .pre-footer{
+    margin-top: 30px;
+    background-color:#0d2947;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottom-icon{
+    margin-top: 20px;
+  }
+  .bottom-icon button{
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;   
+  }
+  .footer{
+    height: 150px;
+    background-color: #0d2947;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #footer{
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .footer_button{
+    background-color: #0d2947;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+  #footer p{
+    color: white;
+  }
+
+  /* CONTACT  PAGE  */
+  .info{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  .contact-info a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+
+
+  /*  MEDIA QUERIES  */
+  @media screen
+    and (device-width: 480px) 
+    and (device-height: 700px) {
+    
+    .links{display: inline-block;}
+
+    .profile{
+      text-align: center;
+    }
+
+    .rows{
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    .pro_links{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .no_art{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
