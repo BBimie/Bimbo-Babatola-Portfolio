@@ -1,11 +1,11 @@
   body{
-    color: #a33258;
-    background-color: #dba791;   /**/
+    color: black;
+    background-color:#d2dae6;   /**/
 
   }
   #nav-bar{
     width: 100%;
-    background-color:#0d2947;
+    background-color: #d2dae6;
     color: white;
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@
     margin-right: 20px;
   }
   .button {
-    background-color:#0d2947;
+    background-color:  #d2dae6;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -38,8 +38,8 @@
     color: white;
   }
   .contact {
-    background-color:#0d2947;
-    border: 2px solid #EDC7B7;
+    background-color:#d2dae6;
+    border: 2px solid #89a3e7;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -54,9 +54,8 @@
   }
 
   .profile{
-    height: 500px;
+    height: 400px;
     text-align: center;
-    position: relative;
   }
 
   .data{
@@ -73,6 +72,9 @@
     margin-top: 50px;
   }
 
+  .lower{
+    background-color: white;
+  }
 
   .projects{
     text-align: center;
@@ -117,8 +119,7 @@
     justify-content: center;
   }
   .pre-footer{
-    margin-top: 30px;
-    background-color:#0d2947;
+    background-color:#89a3e7;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -136,7 +137,7 @@
   }
   .footer{
     height: 150px;
-    background-color: #0d2947;
+    background-color: #89a3e7;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -149,8 +150,8 @@
     justify-content: space-around;
   }
 
-  .footer_button{
-    background-color: #0d2947;
+  #footer button{
+    background-color: #89a3e7;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -161,13 +162,19 @@
     transition-duration: 0.4s;
   }
 
+  #footer button:hover {
+    background-color: #071b30; /* Green */
+    color: white;
+  }
+
   #footer p{
     color: white;
   }
 
   /* CONTACT  PAGE  */
   .info{
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -182,7 +189,7 @@
   .contact-info a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
   }
 
 
@@ -215,5 +222,4 @@
       flex-direction: row;
       justify-content: center;
     }
-  }
-  
+  } 
