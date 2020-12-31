@@ -196,7 +196,7 @@
 
 
 
-  /*  MEDIA QUERIES  */
+  /*  MEDIA QUERIES  
   @media screen
     and (device-width: 480px) 
     and (device-height: 700px) {
@@ -224,4 +224,4 @@
       flex-direction: row;
       justify-content: center;
     }
-  } 
+  } */
