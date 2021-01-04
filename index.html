@@ -2,46 +2,50 @@
     <head>
         <meta charset="utf-8"> 
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">   
         <title>Bimbo Babatola</title>
     </head>
     <body>
         <div id="landing">
             <div id="nav-bar">
                 <div class='links'>
-                    <a href="..\index.html"><button class="button">Home</button></a>
+                    <a href=".\index.html"><button class="button">Home</button></a>
                     <a href="#about"><button class="button">About</button></a>
                     <a href="#projects"><button class="button">Projects</button></a>
-                    <a href="..\contact.html"><button class="contact">Contact</button></a>
+                    <a href=""><button class = "button">Resume</button></a>
+                    <a href="#contact"><button class="contact">Contact</button></a>
+                    
                 </div>
             </div>
             <div class="name">
-                <h4>Hello</h4>
-                <h1>I am Bimbo.</h1>
+                <h1>Hi,</h1>
+                <h1>My name is <h1 class="glow">Bimbo.</h1></h1>
             </div>
 
             <a href="#about"><button class="aboutme">Know me</button></a>
         </div>
 
         <div id="about">
-            <h2 style="text-align: center;">About Me</h2>
+            <h2 style="text-align: center; font-family: Roboto Slab;">About Me</h2>
             <div class="about">
                 <div id="me">
-                    <header>I'm Temitope Bimbo Babatola, Datascientist</header>
-                    <p>Lorem ipsum </p>
+                    <header>Datascientist</header>
+                    <p>I am a self taught datascientist</p>
                 </div>
                 <div id="contact">
                     <ul>
                         <ol>Name: Temitope Babatola</ol>
-                        <ol>Email: babatolatemi@gmail.com</ol>
-                        <ol>Github: BBimie</ol>
+                        <ol>Email: <a href="mailto:babatolatemi@gmail.com" target="_blank">babatolatemi@gmail.com</a></ol>
+                        <ol>Phone: +2347065719564</ol>
+                        <ol>Github: <a href="https://www.github.com/BBimie/" target="_blank">BBimie</a></ol>
                     </ul>
-                    <a href=""><button class="resume">View Resume</button></a>
                 </div>
             </div>
         </div>
 
         <div id="projects">
-            <h2 style="text-align: center;">My Projects</h2>
+            <h2 style="text-align: center; font-family: Roboto Slab;">My Projects</h2>
             <div class="project-container">
 
                 <div class="project-item">
@@ -52,7 +56,9 @@
                     <div class="project-details">
                         <h3>Police Shooting Analysis</h3>
                         <p>Python, Matplotlib, Seaborn</p>
-                        <p>Lorem ipsum ........................</p>
+                        <p>I analyzed the US police shooting data from ---- to ----. The analysis showed that there is racial bias in
+                            policing in the US.
+                        </p>
                     </div>
                 </div>
 
@@ -61,16 +67,57 @@
                         <img src="">
                     </div>
                     <div class="project-details">
-                        <h2>Chinook DB Analysis</h2>
+                        <h3>Chinook DB Analysis</h3>
                         <p>SQL, Matplotlib, Python</p>
+                        <p>Chinook db is a digital media store DB created using iTunes data. I used SQL to carry out business analytics
+                            on the database. I also used sqlite with jupyter notebook to show the analysis in real time
+                        </p>
                     </div>
                 </div>
 
                 <div class="project-item">
                     <div class="project-image"></div>
-                    <div class="project-details"></div>
+                    <div class="project-details">
+                        <h3>Heart Disease Prediction</h3>
+                        <p>Python, Scikit-learn, Matplotlib, Seaborn</p>
+                        <p>Machine learning model to help predict whether an individual would have coronary heart disease or not. 
+                            The model achieved a accuracy score.</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image"></div>
+                    <div class="project-details">
+                        <h3>Game of Thrones Deaths</h3>
+                        <p>Tableau</p>
+                        <p>This is a data visualization project that shows the details about the deaths that occurred on screen in Game of Thrones
+                            I used Tableau to bring it to life using various charts and filters.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="footer-icons">
+                <a href="https://www.github.com/BBimie/" target="_blank" style="margin-right: 10px;">
+                    <button><i><img src=".\icons\github-brands.svg" style="width:20px;height:20px;"></i></button>
+                </a>
+                <a href="https://www.linkedin.com/in/temitope-babatola/" target="_blank" style="margin-right: 10px;">
+                    <button><i><img src=".\icons\linkedin-in-brands.svg" style="width:20px;height:20px;"></i></button>
+                </a>
+                <a href="https://medium.com/@babatolatemi" target="_blank" style="margin-right: 10px;">
+                    <button><i><img src=".\icons\medium-m-brands.svg" style="width:20px;height:20px;"></i></button>
+                </a>
+                <a href="https://twitter.com/BimboBabatola" target="_blank" style="margin-right: 10px;">
+                    <button><i><img src=".\icons\twitter-brands.svg" style="width:20px;height:20px;"></i></button>
+                </a>
+                <a href="mailto:babatolatemi@gmail.com" target="_blank">
+                    <button><i><img src=".\icons\envelope-solid.svg" style="width:20px;height:20px;"></i></button>
+                </a>
+            </div>
+            <div>
+                <p>©2021 Bimbo Babatola. All rights reserved.</p>
+            </div>
+        </footer>
     </body>
 </html>
