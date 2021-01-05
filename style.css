@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
 #landing{
     height: 100%;
     background-image: url("./icons/wine.jpg");
@@ -25,7 +35,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     transition-duration: 0.4s;
 }
 
@@ -41,12 +51,23 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     transition-duration: 0.4s;
 }
 .contact:hover {
     background-color: transparent; 
     color: white;
+}
+@media only screen and (max-width: 787px) {
+
+    .contact {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
 }
 
 .name{
@@ -55,24 +76,46 @@
     margin-left: 15%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 .glow {
-    padding-left: 3%;
     color: #722F37;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-  }
+}
   
-  @-webkit-keyframes glow {
+@-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(194, 121, 121), 0 0 40px rgb(194, 121, 121), 0 0 50px rgb(194, 121, 121), 0 0 60px rgb(194, 121, 121), 0 0 70px #e60073;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px goldenrod, 0 0 40px #ff4da6, 0 0 50px rgb(146, 64, 64), 0 0 60px rgb(146, 64, 64), 0 0 70px rgb(146, 64, 64), 0 0 80px #ff4da6;
     }
-  }
+}
+
+.next a{
+    background-color: #691721;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px 5px rgba(51,51,51,0.2);
+    margin-left: 15%;
+}
+
+
+@media only screen and (max-width: 787px) {
+    .name{
+        margin-top: 7%;
+        margin-left: 15%;
+    }
+    .next{
+        margin-top: 7%;
+        margin-left: 15%;
+    }
+}
 
 #about{
     margin-top: 7%;
@@ -84,6 +127,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 787px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .aboutme {
@@ -106,52 +157,77 @@
 #about{
     font-size: 20px;
 }
-.resume {
-    background-color:  #A59172; 
-    border-radius: 25px;
-    border: 2px solid #A59172;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    transition-duration: 0.4s;
-}
 
-.resume:hover {
-    background-color: transparent; 
-    color: white; 
-}
 #projects{
     background-color: beige;
     padding-top: 3%;
     padding-bottom: 3%;
 }
-.project-container{
+.project-container {
+    padding: 16px;
+}
+.project-container .row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
 }
 .project-item{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 16px;
 }
-.project-image{
-    
+@media only screen and (min-width: 787px) {
+    .project-item {
+        width: 50%;
+        padding: 72px;
+    }
 }
-.project-details{
-     
+.project-item__title {
+    font-weight: 800;
+    font-size: 24px;
+    padding: 8px 16px;
+    color: maroon;
+}
+.project-item__content {
+    padding: 8px;
+}
+.project-item__thumbnail {  
+}
+.project-item__thumbnail img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.project-item__footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+.project-item__footer a {
+    background-color: #691721;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px 5px rgba(51,51,51,0.1);
 }
 footer{
     color: white;
-    background-color:#722F37;
+    background-color: #691721;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 2%;
     display: flex;
     flex-direction:column;
     justify-content: space-around;
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px 5px rgba(51,51,51,0.1);
 }
 .footer-icons button{
     width: 40px;
@@ -159,4 +235,7 @@ footer{
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;  
+}
+.rights{
+    padding-top: 5%;
 }

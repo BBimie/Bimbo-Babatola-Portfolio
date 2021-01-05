@@ -10,7 +10,7 @@
         <div id="landing">
             <div id="nav-bar">
                 <div class='links'>
-                    <a href=".\index.html"><button class="button">Home</button></a>
+                    <a href="index.html"><button class="button">Home</button></a>
                     <a href="#about"><button class="button">About</button></a>
                     <a href="#projects"><button class="button">Projects</button></a>
                     <a href=""><button class = "button">Resume</button></a>
@@ -23,11 +23,13 @@
                 <h1>My name is <h1 class="glow">Bimbo.</h1></h1>
             </div>
 
-            <a href="#about"><button class="aboutme">Know me</button></a>
+            <div class="next">
+                <a href="#about">Get to know me</a>
+            </div>
         </div>
 
         <div id="about">
-            <h2 style="text-align: center; font-family: Roboto Slab;">About Me</h2>
+            <h2 style="text-align: center; font-family: Roboto Slab; font-size: 30px; color: maroon;">About Me</h2>
             <div class="about">
                 <div id="me">
                     <header>Datascientist</header>
@@ -45,78 +47,98 @@
         </div>
 
         <div id="projects">
-            <h2 style="text-align: center; font-family: Roboto Slab;">My Projects</h2>
+            <h2 style="text-align: center; font-family: Roboto Slab; font-size: 30px; color: maroon;">My Projects</h2>
             <div class="project-container">
-
-                <div class="project-item">
-                    <div class="project-image">
-                        <img src="">
+                <div class="row">
+                    <div class="project-item">
+                        <div class="project-item__title">
+                           <p>US Police Shooting Analysis</p>
+                        </div>
+                        <div class="project-item__content">
+                            <p>Exploratory and Explanatory Data Analysis of police shooting data in the US showing 
+                                the effect of racial bias on shooting incidences.</p>
+                            <p>Python, Data Analysis, Data Visualization</p>
+                        </div>
+                        <div class="project-item__thumbnail">
+                            <img src="icons/police-shooting.png" alt="Project One">
+                        </div>
+                        <div class="project-item__footer">
+                            <a href="">Code</a>
+                        </div>
                     </div>
 
-                    <div class="project-details">
-                        <h3>Police Shooting Analysis</h3>
-                        <p>Python, Matplotlib, Seaborn</p>
-                        <p>I analyzed the US police shooting data from ---- to ----. The analysis showed that there is racial bias in
-                            policing in the US.
-                        </p>
+                    <div class="project-item">
+                        <div class="project-item__title">
+                            Chinook DB Analysis
+                        </div>
+                        <div class="project-item__content">
+                            <p>Business analytics using SQL</p>
+                            <p>SQL, SQLite, Data Analysis</p>
+                        </div>
+                        <div class="project-item__thumbnail">
+                            <img src="icons\chinook schema.png" alt="Project Two">
+                        </div>
+                        <div class="project-item__footer">
+                            <a href="">Code</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="project-item">
-                    <div class="project-image">
-                        <img src="">
+                    <div class="project-item">
+                        <div class="project-item__title">
+                            Heart Disease Prediction
+                        </div>
+                        <div class="project-item__content">
+                            <p>Predicted whether an individual would have coronary heart disease using logistic regression.</p>
+                            <p>Python, Machine Learning, Data Analysis, Data Visualization</p>
+                        </div>
+                        <div class="project-item__thumbnail">
+                            <img src="icons/heart.jpg" alt="Project Three">
+                        </div>
+                        <div class="project-item__footer">
+                            <a href="">Code</a>
+                            <a href="">Article</a>
+                        </div>
                     </div>
-                    <div class="project-details">
-                        <h3>Chinook DB Analysis</h3>
-                        <p>SQL, Matplotlib, Python</p>
-                        <p>Chinook db is a digital media store DB created using iTunes data. I used SQL to carry out business analytics
-                            on the database. I also used sqlite with jupyter notebook to show the analysis in real time
-                        </p>
-                    </div>
-                </div>
 
-                <div class="project-item">
-                    <div class="project-image"></div>
-                    <div class="project-details">
-                        <h3>Heart Disease Prediction</h3>
-                        <p>Python, Scikit-learn, Matplotlib, Seaborn</p>
-                        <p>Machine learning model to help predict whether an individual would have coronary heart disease or not. 
-                            The model achieved a accuracy score.</p>
+                    <div class="project-item">
+                        <div class="project-item__title">
+                            Game of Throne Deaths 
+                        </div>
+                        <div class="project-item__content">
+                            <p>Data visualization project that shows the details about the deaths that occurred on screen in 
+                                Game of Thrones. I used Tableau to bring it to life using various charts and filters.</p>
+                            <p>Tableau, Data Visualization</p>
+                        </div>
+                        <div class="project-item__thumbnail">
+                            <img src="icons\chinook schema.png" alt="Project Four">
+                        </div>
+                        <div class="project-item__footer">
+                            <a href="">Viz</a>
+                        </div>
                     </div>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-image"></div>
-                    <div class="project-details">
-                        <h3>Game of Thrones Deaths</h3>
-                        <p>Tableau</p>
-                        <p>This is a data visualization project that shows the details about the deaths that occurred on screen in Game of Thrones
-                            I used Tableau to bring it to life using various charts and filters.
-                        </p>
-                    </div>
-                </div>
+                    
             </div>
         </div>
         <footer>
             <div class="footer-icons">
                 <a href="https://www.github.com/BBimie/" target="_blank" style="margin-right: 10px;">
-                    <button><i><img src=".\icons\github-brands.svg" style="width:20px;height:20px;"></i></button>
+                    <button><i><img src="icons\github-brands.svg" style="width:20px;height:20px;"></i></button>
                 </a>
                 <a href="https://www.linkedin.com/in/temitope-babatola/" target="_blank" style="margin-right: 10px;">
-                    <button><i><img src=".\icons\linkedin-in-brands.svg" style="width:20px;height:20px;"></i></button>
+                    <button><i><img src="icons\linkedin-in-brands.svg" style="width:20px;height:20px;"></i></button>
                 </a>
                 <a href="https://medium.com/@babatolatemi" target="_blank" style="margin-right: 10px;">
-                    <button><i><img src=".\icons\medium-m-brands.svg" style="width:20px;height:20px;"></i></button>
+                    <button><i><img src="icons\medium-m-brands.svg" style="width:20px;height:20px;"></i></button>
                 </a>
                 <a href="https://twitter.com/BimboBabatola" target="_blank" style="margin-right: 10px;">
-                    <button><i><img src=".\icons\twitter-brands.svg" style="width:20px;height:20px;"></i></button>
+                    <button><i><img src="icons\twitter-brands.svg" style="width:20px;height:20px;"></i></button>
                 </a>
                 <a href="mailto:babatolatemi@gmail.com" target="_blank">
-                    <button><i><img src=".\icons\envelope-solid.svg" style="width:20px;height:20px;"></i></button>
+                    <button><i><img src="icons\envelope-solid.svg" style="width:20px;height:20px;"></i></button>
                 </a>
             </div>
             <div>
-                <p>©2021 Bimbo Babatola. All rights reserved.</p>
+                <p class="rights">©2021 Bimbo Babatola. All rights reserved.</p>
             </div>
         </footer>
     </body>
