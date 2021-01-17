@@ -11,7 +11,7 @@
             <div id="nav-bar">
                 <div class='links'>
                     <a href="index.html"><button class="button">Home</button></a>
-                    <a href="#about"><button class="button">About</button></a>
+                    <a href="#about__container"><button class="button">About</button></a>
                     <a href="#projects"><button class="button">Projects</button></a>
                     <a href=""><button class = "button">Resume</button></a>
                     <a href="#contact"><button class="contact">Contact</button></a>
@@ -24,23 +24,28 @@
             </div>
 
             <div class="next">
-                <a href="#about">Get to know me</a>
+                <a href="#about__container">Get to know me</a>
             </div>
         </div>
 
-        <div id="about">
+        <div id="about__container">
             <h2 style="text-align: center; font-family: Roboto Slab; font-size: 30px; color: maroon;">About Me</h2>
-            <div class="about">
-                <div id="me">
-                    <header>Datascientist</header>
-                    <p>I am a self taught datascientist</p>
+            <div class="about__content">
+                <div class="about__essay">
+                    <a>I have several names. My official first name is Temitope, but my preferred first name is Bimbo, 
+                        so don't be confused when I use them interchangeably</a>
+                    <p>I am a self taught Datascientist and I have worked on several Data Analysis, Data Visualization, 
+                        Machine Learning, Deep Learning projects and a host of other Data related tasks. My favorite tools to use are Python, 
+                        SQL, Tableau, PowerBI and Alteryx. My Github Profile contains most of my Python and SQL projects, and you can find my 
+                        Tableau vizzes on my Tableau Profile.</p>
                 </div>
-                <div id="contact">
+                <div class="about__contact">
                     <ul>
-                        <ol>Name: Temitope Babatola</ol>
+                        <ol>Name: Temitope Bimbo Babatola</ol>
                         <ol>Email: <a href="mailto:babatolatemi@gmail.com" target="_blank">babatolatemi@gmail.com</a></ol>
                         <ol>Phone: +2347065719564</ol>
                         <ol>Github: <a href="https://www.github.com/BBimie/" target="_blank">BBimie</a></ol>
+                        <ol>Tableau: <a href="https://public.tableau.com/profile/bimbo.babatola#!/">Bimbo Babatola</a></ol>
                     </ul>
                 </div>
             </div>
@@ -52,11 +57,12 @@
                 <div class="row">
                     <div class="project-item">
                         <div class="project-item__title">
-                           <p>US Police Shooting Analysis</p>
+                           US Police Shooting Analysis
                         </div>
                         <div class="project-item__content">
-                            <p>Exploratory and Explanatory Data Analysis of police shooting data in the US showing 
-                                the effect of racial bias on shooting incidences.</p>
+                            <p>Exploratory and Explanatory Data Analysis of police shooting data in the US showing the effect of racial bias on shooting incidences.</p>
+                        </div>
+                        <div class="project-item__skills">
                             <p>Python, Data Analysis, Data Visualization</p>
                         </div>
                         <div class="project-item__thumbnail">
@@ -71,8 +77,10 @@
                         <div class="project-item__title">
                             Chinook DB Analysis
                         </div>
-                        <div class="project-item__content">
-                            <p>Business analytics using SQL</p>
+                        <div class="project-item__summary">
+                            <p>Business analytics of the chinook digital media store using SQL.</p>
+                        </div>
+                        <div class="project-item__skills">
                             <p>SQL, SQLite, Data Analysis</p>
                         </div>
                         <div class="project-item__thumbnail">
@@ -89,6 +97,8 @@
                         </div>
                         <div class="project-item__content">
                             <p>Predicted whether an individual would have coronary heart disease using logistic regression.</p>
+                        </div>
+                        <div class="project-item__skills">
                             <p>Python, Machine Learning, Data Analysis, Data Visualization</p>
                         </div>
                         <div class="project-item__thumbnail">
@@ -106,17 +116,19 @@
                         </div>
                         <div class="project-item__content">
                             <p>Data visualization project that shows the details about the deaths that occurred on screen in 
-                                Game of Thrones. I used Tableau to bring it to life using various charts and filters.</p>
+                                Game of Thrones.</p>
+                        </div>
+                        <div class="project-item__skills">
                             <p>Tableau, Data Visualization</p>
                         </div>
                         <div class="project-item__thumbnail">
-                            <img src="icons\chinook schema.png" alt="Project Four">
+                            <img src="icons\GOT.png" alt="Project Four">
                         </div>
                         <div class="project-item__footer">
                             <a href="">Viz</a>
                         </div>
-                    </div>
-                    
+                     </div> 
+                </div>
             </div>
         </div>
         <footer>
@@ -133,9 +145,13 @@
                 <a href="https://twitter.com/BimboBabatola" target="_blank" style="margin-right: 10px;">
                     <button><i><img src="icons\twitter-brands.svg" style="width:20px;height:20px;"></i></button>
                 </a>
+                <a href="https://public.tableau.com/profile/bimbo.babatola#!/" target="_blank">
+                    <button><i><img src="icons\tableau.png" style="width:20px;height:20px;"></i></button>
+                </a>
                 <a href="mailto:babatolatemi@gmail.com" target="_blank">
                     <button><i><img src="icons\envelope-solid.svg" style="width:20px;height:20px;"></i></button>
                 </a>
+            
             </div>
             <div>
                 <p class="rights">©2021 Bimbo Babatola. All rights reserved.</p>
