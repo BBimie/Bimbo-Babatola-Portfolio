@@ -155,16 +155,18 @@ body, html {
     color: white; 
 }
 #about__container{
-    height: 450px;
     font-size: 20px;
-    padding: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .about__content{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
 }
+
 .about__essay{
     width: 50%;
 }
@@ -173,7 +175,7 @@ body, html {
 }
 
 #projects{
-    background-color: beige;
+    background-color: rgb(243, 231, 231);
     padding-top: 3%;
     padding-bottom: 3%;
 }
